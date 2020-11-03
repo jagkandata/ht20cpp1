@@ -139,12 +139,11 @@ Spara filen med namnet uppgift3.cpp
 #include <iomanip>
 using namespace std;
 
-int main()  // Main needs to be of type int, since it returns 0.
+void main(){
 
     // Define and initialize variables
     int hoursPerWeek = 35;
     double hourlyWages = 83;
-    double weeklyWages; // This needs to be initialized to be able to do the calculation on row 13
 
     // Calculate weekly salary
     weeklyWages = hoursPerWeek * hourlyWages;
@@ -156,12 +155,12 @@ int main()  // Main needs to be of type int, since it returns 0.
 
     cout << "Given an hourly wage of " >> hourlyWages << " kr" << endl
         << " and the number of hours per weeek " << hoursPerWeek << endl
-        << "the weekly wages will be: " << weeklyWages << " kr" >> endl; // Added semicolon to end the line.
+        << "the weekly wages will be: " << weeklyWages << " kr" >> endl
 
-    cout << "\nPress return!"
+    cout << "\nPress return!";
     cin.get(); // Wait for return
 
-    return '0';
+    return 0;
 }
 ```
 ---
