@@ -7,6 +7,7 @@ Den här uppgiften är tänkt att ge en liten introduktion till C++ och visa hur
 ### Uppgift
 
 Skriv av lösningen, men lista ut vad den gör och kommentera koden.
+Spara filen med namnet uppgift1.cpp
 
 ### Problem
 
@@ -66,6 +67,7 @@ int main(void){
 ### Uppgift
 
 Skriv av lösningen, men lista ut vad den gör och kommentera koden.
+Spara filen med namnet uppgift2.cpp
 
 ### Problem
 
@@ -130,13 +132,14 @@ void statistics()
 ## Hitta felen
 
 Rätta till syntaxfelen i följande program så att det går att köra korrekt.
+Spara filen med namnet uppgift3.cpp
 
 ```c++
 #include <iostream>
 #include <iomanip>
 using namespace std;
 
-int main() { // Main needs to be of type int, since it returns 0.
+int main()  // Main needs to be of type int, since it returns 0.
 
     // Define and initialize variables
     int hoursPerWeek = 35;
@@ -166,6 +169,7 @@ int main() { // Main needs to be of type int, since it returns 0.
 ## Hitta felen 2
 
 Rätta till logiska fel i följande program.
+Spara filen med namnet uppgift4.cpp
 
 ```c++
 #include <iostream>
